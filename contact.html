@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#FFFFE9] font-[Poppins]">
+    <header>
+        <div class="pre-nav h-12 bg-[#CBCDA9]"></div>
+        <div class="navbar w-full">
+            <ul class="flex mt-8 mb-20 justify-center gap-10 text-md">
+                <li>Home</li>
+                <li><a href="./index.html">About us</a></li>
+                <li class="font-bold"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="w-10/12 mx-auto">
+        <section class="w-10/12 mx-auto mb-16">
+            <div class="contact-us">
+                <div class="flex justify-center items-center flex-col">
+                    <h1 class="text-8xl mb-4 font-bold font-[Moon-Dance] text-center">Contact Us</h1>
+                    <p class="text-center flex flex-col font-semibold text-2xl"><span>Get in touch! Have a question or feedback? Use our contact </span> <span>form or drop us an email. We are here to help</span></p>
+                </div>
+            </div>
+        </section>
+    
+        <section class="sm:w-8/12 mx-auto bg-[#201F1F] text-white rounded-lg mb-40">
+            <div class="flex md:flex-col sm:flex-col lg:flex-row">
+                <div class="md:w-full sm:w-full lg:w-6/12 px-6 pt-20 pb-28">
+                    <form class="flex flex-col gap-4" action="">
+                        <div>
+                            <h2 class="text-3xl">Get in touch with us</h2>
+                        </div>
+                        <div class="flex flex-col gap-4 text-[#CCC6C6]">
+                            <div class="flex flex-col">
+                                <label class="text-[12px] pb-1" for="name">Name</label>
+                                <input class="p-3 bg-[#343333] border-[#8D8D8D] border-[.37px] rounded text-[11px]" type="text" name="name" id="name" placeholder="Rachel Joe">
+                            </div>
+                            <div class="flex flex-col">
+                                <label class="text-[12px] pb-1" for="email">Email</label>
+                                <input class="p-3 bg-[#343333] border-[#8D8D8D] border-[.37px] rounded text-[11px]" type="email" name="email" id="email" placeholder="rachel@domain.com">
+                            </div>
+                            <div class="flex flex-col">
+                                <label class="text-[12px] pb-1" for="message">Message</label>
+                                <textarea class="p-3 bg-[#343333] border-[#8D8D8D] border-[.37px] rounded text-[11px]" name="message" id="message" cols="30" rows="3" placeholder="Type your query here..."></textarea>
+                            </div>
+                            <div>
+                                <button class="px-5 py-2 bg-[#F3F25B] text-xs rounded-sm text-black hover:text-[#F3F25B] border-[1px] border-solid border-[#F3F25B] hover:bg-transparent">Send my message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="bg-[url('./assets/images/map.png')] bg-cover bg-no-repeat lg:w-6/12 md:w-full sm:w-full md:min-h-[500px] sm:min-h-[500px] lg:h-auto">
+                </div> 
+            </div>
+        </section>
+    </main>
+</body>
+</html>
